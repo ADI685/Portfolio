@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  font-family: "Fira Sans", sans-serif;
+  /* background-color: red; */
+  background-color: rgb(215, 203, 203);
+  width: 440px;
+  height: 100vh;
+}
+.sidebar nav {
+  padding: 25px;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 20px;
+  padding: 15px 0;
+}
+.sidebar nav li a{
+  text-decoration: none;
+  color: black;
+}
+.maincontent {
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Montserrat", sans-serif;
+  /* background-color: yellow; */
+  width: 90vw;
+}
+.infocontainer {
+  /* background-color: aqua; */
+  height: 60vh;
+  margin: auto;
+  margin-top: 144px;
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pic img{
+  height: 60vh;
+}
+
+.info{
+  justify-content: center;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+}
+.hello{
+  font-size: 30px;
+  font-weight: 550;
+}
+.name{
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  font-weight: 600;
+
+}
+.about{
+font-size: 20px;
+font-weight: 400;
+}
+.moreabout{
+  font-size: 15px;
+  /* font-family:'Roboto Slab', serif; */
+  font-weight: 600;
+}
+.btn{
+  border-radius: 35px;
+  padding: 4px 11px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  margin: 15px 3px;
+  background-color: dodgerblue;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.btn-s{
+  font-size: 12px;
+}
+.btn:hover{
+  color: dodgerblue;
+  background-color: white;
+  border: 0.5px solid dodgerblue;
+
+}
+.container {
+  display: flex;
+}
+
+
+.contactform{
+  padding:10px 25px ;
+  padding-top: 100px;
+}
+.contactform h1{
+  text-align: center;
+  padding-bottom: 15px;
+}
+.contactform form div{
+  padding: 10px 0 5px 0;
+  display: flex;
+  flex-direction: column;
+  /* font-family: serif; */
+  font-weight: 500;
+}
+
+.contactform form div input{
+width: 20vw;
+border-radius: 10px;
+margin: 6px 0 0 0;
+padding: 3px;
+border: 1px solid black;
+}
+
+#emailHelp{
+  font-size: 12px;
+  color: rgb(69, 111, 191);
+}
+#form-check{
+  display: block;
+}
+#form-check input{
+  width: 10px;
+  margin: 0px 5px 15px 0;
+  cursor: pointer;
+
+}
