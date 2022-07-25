@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="sidebar">
+      <div class="sidebar sidebargo">
         <nav>
           <ul>
             <li><a href=".\index.htm"> Home</a></li>
@@ -21,6 +21,10 @@
         </nav>
       </div>
       <div class="maincontent">
+        <div class="hamburger">
+          <img class = "ham" src=".\images\more.png" alt="=">
+          <img class="cross" src=".\images\x.png" alt="x">
+        </div>
         <div class="infocontainer">
           <div class="info">
             <div class="hello">Hi! I am</div>
@@ -31,13 +35,14 @@
               sleeping-jogging-coding-eating-sleeping.
             </div>
             <div class="dowcv">
-              <a href=".\cv.txt" target="_blank"> <button class="CV btn">Download CV</button></a>
+              <a href="/pages/19104004_resume.pdf" target="_blank"> <button class="CV btn">Download CV</button></a>
               <a href=".\Contact.htm"><button class="contactme btn">Contact Me</button></a>
             </div>
           </div>
-          <div class="pic"><img src=".\images\dev.png" alt="Aditya" /></div>
+          <div id="devpic" class="pic"><img src=".\images\dev.png" alt="Aditya" /></div>
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
