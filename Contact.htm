@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="sidebar">
+      <div class="sidebar sidebargo">
         <nav>
           <ul>
             <li> <a href=".\index.htm"> Home</a></li>
@@ -21,36 +21,43 @@
         </nav>
       </div>
       <div class="maincontent">
+        <div class="hamburger">
+          <img class = "ham" src=".\images\more.png" alt="=">
+          <img class="cross" src=".\images\x.png" alt="x">
+        </div>
       <div class="contactform">
         <h1>Contact me for work / general enquiries</h1>
-        <form>
+        <form action="https://formsubmit.co/el/guyila" method="POST">
           <div class="mb-3">
             <label for="clientname" class="form-label">Name</label>
-            <input type="name" class="form-control" id="clientname" aria-describedby="emailHelp">
+            <input type="name" name="Name" class="form-control" id="clientname" aria-describedby="emailHelp">
           </div>
           <div class="mb-3">
             <label for="clientmail" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="clientmail" aria-describedby="emailHelp">
+            <input type="email" name="Email" class="form-control" required id="clientmail" aria-describedby="emailHelp">
           </div>
           <div class="mb-3">
             <label for="clientphone" class="form-label">Phone</label>
-            <input type="phone" class="form-control" id="clientphone">
+            <input type="phone" name="phone" class="form-control" id="clientphone">
           </div>
           <div id="emailHelp" class="form-text">We'll never share your email and phone with anyone else.</div>
           <div class="mb-3">
             <label for="clientquery" class="form-label">Query</label>
-            <input  type="textarea" class="form-control" id="clientquery">
+            <input  type="textbox" name="Query" class="form-control" id="clientquery">
           </div>
           <div class="mb-3" id="form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <input type="checkbox" name="Response" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Wanted to work with me.</label>
           </div>
           <button type="submit" class="btn btn-s">Submit</button>
+
+
         </form>
 
       </div>
        
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
