@@ -37,7 +37,9 @@
 .sidebar nav li a:focus{
   color: rgb(143, 139, 139);
 }
-
+.curpage{
+font-weight:800;
+}
 .maincontent {
   /* font-family: "Roboto", sans-serif; */
   font-family: "Montserrat", sans-serif;
